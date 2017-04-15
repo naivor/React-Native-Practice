@@ -1,0 +1,17 @@
+{
+  "name": "SecondDemo",
+  "version": "1.0.0",
+  "description": "add react native to a exist android project",
+  "main": "index.android.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res/",
+    "test": "test react-native"
+  },
+  "author": "naivor",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-native": "^0.43.3"
+  }
+}
